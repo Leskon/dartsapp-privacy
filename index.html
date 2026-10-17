@@ -4,78 +4,207 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Datenschutzerklärung – Simple Darts</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #1d2430; background: #fff; }
+    h1 { font-size: 26px; margin: 0 0 6px; }
+    h2 { font-size: 19px; margin: 32px 0 8px; }
+    .stand { color: #5c6675; margin: 0 0 24px; }
+    ul { padding-left: 22px; }
+    li { margin: 4px 0; }
+    hr { border: 0; border-top: 1px solid #d9dee6; margin: 56px 0; }
+    .lang { font-size: 13px; color: #5c6675; margin-bottom: 20px; }
+    .lang a { color: #1d6fd1; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #121418; color: #e6e9ee; }
+      .stand, .lang { color: #9aa3b2; }
+      hr { border-top-color: #2b313b; }
+      .lang a { color: #7ab2ff; }
+    }
+  </style>
 </head>
-<body style="font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 20px; line-height: 1.6;">
-  <h1>Datenschutzerklärung für Simple Darts</h1>
-  
-  <h2>Lokale Datenverarbeitung</h2>
-  <p>Alle Spielerdaten (Namen, Statistiken, Match-Historie) werden ausschließlich lokal auf Ihrem Gerät gespeichert.</p>
-  <p>Diese Daten verlassen Ihr Gerät nur während aktiver Multiplayer-Sessions (siehe unten) und werden nicht dauerhaft auf Servern gespeichert.</p>
-  
-  <h2>Multiplayer-Funktion</h2>
-  <p>Bei Nutzung der Online-Multiplayer-Funktion werden folgende Daten temporär übertragen:</p>
-  <ul>
-    <li>Gewählter Spielername (frei wählbar, keine echten Namen erforderlich)</li>
-    <li>Spielstand und geworfene Punkte während der Session</li>
-    <li>5-stelliger Session-Code zur Lobby-Verwaltung</li>
-  </ul>
-  
-  <p><strong>Server und Datenspeicherung:</strong></p>
-  <ul>
-    <li>Daten werden über einen Server (darts.ddns.net) in Echtzeit übertragen</li>
-    <li>Alle Session-Daten werden nur temporär im Arbeitsspeicher gehalten</li>
-    <li>Nach Spielende oder bei Inaktivität werden alle Daten automatisch gelöscht</li>
-    <li>Es erfolgt keine dauerhafte Speicherung auf dem Server</li>
-    <li>Keine Erstellung von Benutzerkonten oder Profilen</li>
-  </ul>
-  
-  <p><strong>Sichtbarkeit:</strong> Andere Spieler in derselben Session können Ihren gewählten Spielernamen und Spielstand sehen.</p>
-  
-  <h2>Keine Weitergabe an Dritte</h2>
-  <p>Es erfolgt keine Weitergabe von Daten an Dritte, Werbepartner oder Analysedienste.</p>
-  <p>Diese App enthält keine Werbung und keine externen Tracker.</p>
-  
-  <h2>Ihre Rechte</h2>
-  <p>Sie können die App jederzeit deinstallieren, um alle lokal gespeicherten Daten zu entfernen.</p>
-  <p>Bei Multiplayer-Sessions werden Server-Daten automatisch nach Spielende gelöscht.</p>
-  
-  <p><strong>Letzte Aktualisierung:</strong> 14.02.2026</p>
-  
-  <hr style="margin: 40px 0;">
-  
-  <h1>Privacy Policy for Simple Darts</h1>
-  
-  <h2>Local Data Processing</h2>
-  <p>All player data (names, statistics, match history) is stored exclusively locally on your device.</p>
-  <p>This data only leaves your device during active multiplayer sessions (see below) and is not permanently stored on servers.</p>
-  
-  <h2>Multiplayer Feature</h2>
-  <p>When using the online multiplayer feature, the following data is temporarily transmitted:</p>
-  <ul>
-    <li>Chosen player name (freely selectable, no real names required)</li>
-    <li>Game score and thrown points during the session</li>
-    <li>5-digit session code for lobby management</li>
-  </ul>
-  
-  <p><strong>Server and Data Storage:</strong></p>
-  <ul>
-    <li>Data is transmitted in real-time via a server (darts.ddns.net)</li>
-    <li>All session data is only held temporarily in memory</li>
-    <li>After game end or inactivity, all data is automatically deleted</li>
-    <li>No permanent storage on the server</li>
-    <li>No creation of user accounts or profiles</li>
-  </ul>
-  
-  <p><strong>Visibility:</strong> Other players in the same session can see your chosen player name and score.</p>
-  
-  <h2>No Third-Party Sharing</h2>
-  <p>No data is shared with third parties, advertising partners or analytics services.</p>
-  <p>This app contains no advertising and no external trackers.</p>
-  
-  <h2>Your Rights</h2>
-  <p>You can uninstall the app at any time to remove all locally stored data.</p>
-  <p>During multiplayer sessions, server data is automatically deleted after the game ends.</p>
-  
-  <p><strong>Last update:</strong> 02/14/2026</p>
+<body>
+
+<p class="lang"><a href="#de">Deutsch</a> · <a href="#en">English</a></p>
+
+<!-- ───────────────────────── Deutsch ───────────────────────── -->
+<h1 id="de">Datenschutzerklärung für Simple Darts</h1>
+<p class="stand">Stand: 18. Oktober 2026</p>
+
+<p>Simple Darts ist datensparsam konzipiert. Personenbezogene Daten werden nur verarbeitet, soweit sie für Accounts, geräteübergreifende Synchronisierung, Freunde, Statistiken, Multiplayer, die Kamera-Wurferkennung oder den sicheren Betrieb erforderlich sind. Die App enthält keine Werbung und kein Nutzungs-Tracking. Diese Erklärung ist wortgleich auch in der App unter „Datenschutz“ zu finden.</p>
+
+<h2>Über das Projekt</h2>
+<p>Simple Darts wird privat betrieben. „Foxtale Studio“ ist ausschließlich eine Projekt- und Markenbezeichnung und keine eigene juristische Person. Der Server der App ist unter <code>api.simple-darts.de</code> erreichbar.</p>
+
+<h2>Datenverarbeitung im Überblick</h2>
+<ul>
+  <li><strong>Accountdaten.</strong> Für Registrierung, Anmeldung und Kontoverwaltung verarbeiten wir deine E-Mail-Adresse, deinen Anzeigenamen, deinen Spieler-Code und technisch erforderliche Kontokennungen.</li>
+  <li><strong>Sicherheitsdaten.</strong> Passwörter werden nicht im Klartext gespeichert, sondern nur als gesalzener Argon2id-Hash. Anmeldedaten werden ausschließlich verschlüsselt übertragen.</li>
+  <li><strong>App- und Statusangaben.</strong> Für Kompatibilität und Onlinefunktionen können die verwendete App-Version, die Plattform sowie Online- und Zuletzt-online-Status verarbeitet werden.</li>
+  <li><strong>Freundesfunktionen.</strong> Gespeichert werden Freundschaften, offene oder beantwortete Freundschaftsanfragen und die dafür erforderlichen Zeitangaben. Dazu gehört die 14-tägige Sperrfrist nach einer Ablehnung.</li>
+  <li><strong>Spiele und Statistiken.</strong> Verarbeitet werden Spielerprofile, Spielmodus, Matchverlauf und -ergebnis sowie die zugehörigen Wurf- und Leistungswerte. Dazu gehören je nach Spielmodus beispielsweise Punkte, Würfe, Durchschnitte, Checkouts, Trefferarten, Cricket-Werte und Heatmap-Treffer. Bei angemeldeten Spielern werden auch lokal gespielte Partien mit allen Teilnehmern gespeichert; Mitspieler ohne Konto erscheinen dabei nur mit dem frei gewählten Spielernamen.</li>
+  <li><strong>Synchronisierung.</strong> Wenn du angemeldet bist, werden lokale Spielerprofile, Matchhistorien und Statistiken zusammen mit erforderlichen technischen Änderungs- und Löschkennungen deinem Account zugeordnet und geräteübergreifend synchronisiert.</li>
+  <li><strong>Multiplayer und technischer Betrieb.</strong> Für Online- und lokale Account-Lobbys sowie Online-Turniere werden Sitzungskennungen, Teilnehmer, Einladungen, Spielzustände, Würfe, Ergebnisse und Verbindungsstatus verarbeitet. Bei Serverzugriffen fallen außerdem technisch erforderliche Zugriffsdaten wie IP-Adresse, Zeitpunkt, aufgerufener Endpunkt und Übertragungsstatus an. Im reinen Offline-Modus bleiben Spieler- und Matchdaten auf deinem Gerät.</li>
+  <li><strong>Feedback.</strong> Wenn du freiwillig Feedback sendest oder Zugang zu einer Testfunktion anfragst, werden Kategorie, Nachricht, App-Version, Plattform, Sprache, Zeitpunkt und bei Anmeldung deine interne Nutzer-ID gespeichert. Es wird keine zusätzliche E-Mail-Adresse abgefragt. Feedback wird spätestens nach 24 Monaten automatisch gelöscht.</li>
+</ul>
+
+<h2>Zwecke und Rechtsgrundlagen</h2>
+<ul>
+  <li>Account, Anmeldung und Passwortwiederherstellung: zur Bereitstellung und Verwaltung deines Accounts (Art. 6 Abs. 1 Buchst. b DSGVO).</li>
+  <li>Multiplayer, lokale Account-Lobbys, Turniere, Matchhistorie und Statistiken: zur Durchführung und Dokumentation der von dir gestarteten Spiele (Art. 6 Abs. 1 Buchst. b DSGVO).</li>
+  <li>Account-Synchronisierung: um lokale Spieler, Matches und Statistiken accountgebunden zu sichern und zwischen deinen Geräten bereitzustellen (Art. 6 Abs. 1 Buchst. b DSGVO).</li>
+  <li>Freundesfunktionen: zum Senden, Annehmen und Ablehnen von Anfragen sowie zur Anzeige freigegebener Profil- und Statistikdaten (Art. 6 Abs. 1 Buchst. b DSGVO).</li>
+  <li>Erinnerungen und das Teilen von Kamera-Aufnahmen: nur mit deiner Einwilligung (Art. 6 Abs. 1 Buchst. a DSGVO), jederzeit widerrufbar.</li>
+  <li>IT-Sicherheit, Missbrauchsprävention, Fehlerdiagnose und stabiler Betrieb: aufgrund des berechtigten Interesses an einem sicheren und zuverlässigen Dienst (Art. 6 Abs. 1 Buchst. f DSGVO). Zwingende gesetzliche Verarbeitungen erfolgen, soweit einschlägig, nach Art. 6 Abs. 1 Buchst. c DSGVO. Technisch unbedingt erforderliche lokale Speicherungen erfolgen nach § 25 Abs. 2 Nr. 2 TDDDG. Die Kenntnisnahme dieser Erklärung ist keine datenschutzrechtliche Einwilligung.</li>
+</ul>
+
+<h2>Empfänger und Datenübermittlungen</h2>
+<p>Personenbezogene Daten werden nicht verkauft oder vermietet und nicht an Werbenetzwerke oder Datenhändler weitergegeben. Soweit für die jeweilige Funktion erforderlich, erhalten Daten:</p>
+<ul>
+  <li>der Betreiber und ausdrücklich berechtigte Administratoren,</li>
+  <li>Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Deutschland, als weisungsgebundener Auftragsverarbeiter; der verwendete Cloud-Server befindet sich am Produktstandort Nürnberg, Deutschland,</li>
+  <li>andere Spieler und bestätigte Freunde nur im unten beschriebenen Umfang,</li>
+  <li>Google, wenn du Erinnerungen einschaltest (siehe „Erinnerungen“) oder die Android-Gerätesicherung in deinem Google-Konto aktiviert ist,</li>
+  <li>Behörden oder andere Stellen, wenn eine gesetzliche Verpflichtung besteht.</li>
+</ul>
+<p>Ein externer E-Mail-Versanddienst für Passwort-Reset-E-Mails ist derzeit nicht eingerichtet. Vor seiner Einführung wird diese Erklärung entsprechend ergänzt.</p>
+<p>Die Daten des Simple-Darts-Servers einschließlich freiwilliger Feedbacknachrichten und geteilter Kamera-Aufnahmen werden am Hetzner-Standort Nürnberg und damit innerhalb der EU verarbeitet. Bei der optionalen Android-Gerätesicherung, bei Erinnerungen sowie beim freiwilligen Öffnen von Google Play oder Ko-fi kann eine Verarbeitung außerhalb der EU/des EWR nach den Bedingungen des jeweiligen Anbieters nicht ausgeschlossen werden. Soweit eine Drittlandübermittlung stattfindet, richtet sie sich nach Art. 44 ff. DSGVO und den Garantien des jeweiligen Anbieters.</p>
+
+<h2>Erinnerungen</h2>
+<ul>
+  <li>Erinnerungen sind freiwillig und standardmäßig ausgeschaltet. Erst wenn du sie in den Einstellungen einschaltest, entsteht überhaupt eine Gerätekennung.</li>
+  <li>Zugestellt werden sie über Firebase Cloud Messaging von Google. Google erhält dabei eine zufällige Gerätekennung, eine Installations-Kennung, deine IP-Adresse und technische Angaben wie die Android- und App-Version.</li>
+  <li>Google erhält keinen Namen, keine E-Mail-Adresse, keinen Turniernamen und keinen Nachrichtentext. Verschickt wird bewusst nur ein leeres Signal; der Satz, den du liest, entsteht auf deinem Gerät.</li>
+  <li>Google verarbeitet diese Daten auch außerhalb der EU, unter anderem in den USA. Grundlage sind das EU-US Data Privacy Framework und Standardvertragsklauseln. Google handelt dabei als Auftragsverarbeiter nach Artikel 28 DSGVO.</li>
+  <li>Du kannst Erinnerungen jederzeit wieder abschalten. Die Gerätekennung wird dann sowohl bei Google als auch auf dem eigenen Server gelöscht. Beim Löschen deines Kontos verschwindet sie ebenfalls.</li>
+</ul>
+
+<h2>Kamera (Wurferkennung)</h2>
+<p>Die Kameraerkennung verarbeitet das Kamerabild auf deinem Gerät. Ohne die beiden folgenden Funktionen verlässt kein Bild das Gerät.</p>
+<ul>
+  <li><strong>Board-Bild in Online-Partien.</strong> Spielst du online mit eingeschalteter Kamera, überträgt die App nach jedem erkannten Wurf ein verkleinertes Graustufenbild des Boardausschnitts an unseren Server. Es zeigt nur das Board und die Darts, nicht den Raum. Der Server leitet es nur an die Mitspieler und Zuschauer derselben Partie weiter, hält nur das neueste Bild im Arbeitsspeicher und speichert nichts dauerhaft; spätestens zwei Stunden nach dem letzten Bild ist es gelöscht. Rechtsgrundlage ist Art. 6 Abs. 1 Buchst. b DSGVO (die von dir gestartete Partie).</li>
+  <li><strong>Aufnahmen teilen (freiwillig).</strong> Stimmst du in der Kameraansicht ausdrücklich zu, lädt die App nach jedem erkannten Wurf das Graustufenfoto des Boardausschnitts (mit und ohne den neuen Dart), die Kalibrierung und das getroffene Feld zusammen mit deiner Konto-Kennung, App-Version und dem Zeitpunkt der Einwilligung auf unseren Server hoch, nur im WLAN. Zweck ist allein das Training der Wurferkennung. Die Aufnahmen werden nicht weitergegeben und nicht veröffentlicht und auf einem Server in Deutschland gespeichert. Du kannst die Zustimmung jederzeit in der Kameraansicht widerrufen und alle hochgeladenen Aufnahmen dort löschen; mit der Löschung deines Kontos werden sie ebenfalls gelöscht. Rechtsgrundlage ist deine Einwilligung (Art. 6 Abs. 1 Buchst. a DSGVO).</li>
+</ul>
+
+<h2>Werbung &amp; Tracking</h2>
+<ul>
+  <li>Keine Werbung.</li>
+  <li>Keine Analyse- oder Trackingdienste.</li>
+  <li>Keine versteckten Datensammler und keine ausschließlich automatisierten Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung. Externe Links zum Google Play Store und zu Ko-fi werden nur auf deinen Klick geöffnet. Feedback wird direkt und verschlüsselt an den Simple-Darts-Server übertragen, nicht an einen Formulardienst eines Drittanbieters.</li>
+</ul>
+
+<h2>Lokale Speicherung, Sicherheit und Speicherdauer</h2>
+<p>Lokale Daten liegen im privaten App-Speicher. Da Android-Backups derzeit erlaubt sind, kann Android bei aktivierter Gerätesicherung Teile des App-Speichers und der Einstellungen im Google-Konto sichern. Die Kommunikation mit dem Server erfolgt über HTTPS.</p>
+<p>Speicherdauer:</p>
+<ul>
+  <li>Account-, Profil-, Freundes-, synchronisierte Spieler-, Match- und Statistikdaten: grundsätzlich bis zur Löschung des Datensatzes oder Accounts, soweit keine zwingende längere Aufbewahrung besteht.</li>
+  <li>Nicht gestartete lokale Account-Lobbys: regelmäßig 30 Minuten. Beendete Lobbys: für verzögert eintreffende Statistiken bis zu sieben Tage. Veraltete laufende Lobbys werden regelmäßig bereinigt.</li>
+  <li>Abgelehnte Freundschaftsanfragen: mindestens für die 14-tägige Sperrfrist; darüber hinaus bis zur Wiederverwendung/Bereinigung der Anfrage oder Accountlöschung.</li>
+  <li>Freiwilliges Feedback: spätestens nach 24 Monaten.</li>
+  <li>Geteilte Kamera-Aufnahmen: bis du sie in der Kameraansicht löschst oder dein Konto löschst.</li>
+</ul>
+<p>Bei Accountlöschung werden direkte Kontokennungen anonymisiert und der Account dauerhaft deaktiviert. Freundesdaten, Account-Synchronisierungsdaten, Gerätekennungen für Erinnerungen und geteilte Kamera-Aufnahmen werden entfernt. Statistiken gemeinsamer Matches können anonymisiert als „Gelöschter Spieler“ bestehen bleiben, damit die Historie anderer Teilnehmer nicht verfälscht wird. Lokale Gerätedaten und Android-Sicherungskopien werden durch die serverseitige Löschung nicht automatisch entfernt. Die Kontolöschung ist direkt in der App möglich.</p>
+
+<h2>Sichtbarkeit und Pflichtangaben</h2>
+<p>Lobby- und Matchteilnehmer sehen die für das gemeinsame Spiel erforderlichen Anzeigenamen, Spieler-Codes, Status-, Spiel- und Ergebnisdaten. Bestätigte Freunde können Anzeigename, Spieler-Code, Online-/Zuletzt-online-Status sowie freigegebene zusammengefasste und modusbezogene Statistiken sehen. Beteiligte Nutzer können gemeinsame Matchergebnisse sehen. E-Mail-Adresse und Passwort werden anderen Spielern nie angezeigt.</p>
+<p>Es besteht keine gesetzliche Pflicht, einen Account anzulegen. Ohne E-Mail-Adresse, Anzeigename, Spieler-Code und Passwort können wir jedoch keinen Account und damit keine Account-Synchronisierung, Freundesfunktion oder accountgebundene Online-Funktion anbieten. Der Gast-/Offline-Modus bleibt mit eingeschränktem Funktionsumfang nutzbar.</p>
+<p>Bitte verwende für lokale Spieler keine Klarnamen oder sonstigen Angaben anderer Personen, wenn dies nicht erforderlich ist oder die betroffene Person damit nicht einverstanden ist.</p>
+
+<h2>Deine Rechte, Beschwerde und Änderungen</h2>
+<p>Grundsatz ist die Datenminimierung: Verarbeitet werden nur Daten, die für die beschriebenen Funktionen und den sicheren Betrieb erforderlich sind. Sie werden nicht für unvereinbare andere Zwecke genutzt.</p>
+<p>Soweit die gesetzlichen Voraussetzungen vorliegen, hast du das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16 DSGVO), Löschung (Art. 17 DSGVO), Einschränkung (Art. 18 DSGVO), Datenübertragbarkeit (Art. 20 DSGVO), Widerruf erteilter Einwilligungen (Art. 7 Abs. 3 DSGVO) und Widerspruch gegen Verarbeitungen auf Grundlage von Art. 6 Abs. 1 Buchst. f DSGVO (Art. 21 DSGVO). Nutze hierfür die in der App oder im Google-Play-Eintrag bereitgestellte Kontaktmöglichkeit. Zum Schutz deiner Daten kann ein geeigneter Identitätsnachweis verlangt werden.</p>
+<p>Du kannst dich außerdem bei einer Datenschutzaufsichtsbehörde beschweren, insbesondere an deinem Aufenthaltsort, Arbeitsplatz oder am Ort des mutmaßlichen Verstoßes.</p>
+<p>Diese Erklärung wird bei wesentlichen Änderungen der Funktionen, Empfänger, Fristen oder Rechtslage aktualisiert. Darüber wird in geeigneter Form in der App informiert.</p>
+
+<hr>
+
+<!-- ───────────────────────── English ───────────────────────── -->
+<h1 id="en">Privacy Policy for Simple Darts</h1>
+<p class="stand">Last updated: October 18, 2026</p>
+
+<p>Simple Darts is designed to minimize data use. Personal data is processed only where needed for accounts, cross-device synchronization, friends, statistics, multiplayer, the camera-based throw detection, or secure operation. The app contains no advertising and no usage tracking. The same policy is shown inside the app under “Privacy”.</p>
+
+<h2>About the project</h2>
+<p>Simple Darts is privately operated. “Foxtale Studio” is solely a project and brand name, not a separate legal entity. The app’s server is reachable at <code>api.simple-darts.de</code>.</p>
+
+<h2>Data processing at a glance</h2>
+<ul>
+  <li><strong>Account data.</strong> For registration, sign-in and account management we process your e-mail address, display name, player code and technically required account identifiers.</li>
+  <li><strong>Security data.</strong> Passwords are never stored in plain text, only as a salted Argon2id hash. Sign-in data is transmitted encrypted only.</li>
+  <li><strong>App and status details.</strong> For compatibility and online features, the app version, platform and online / last-online status may be processed.</li>
+  <li><strong>Friend features.</strong> Friendships, open or answered friend requests and the required timestamps are stored, including the 14-day cooldown after a declined request.</li>
+  <li><strong>Games and statistics.</strong> Player profiles, game mode, match history and results, and the associated throw and performance values are processed; depending on the mode this includes points, darts, averages, checkouts, hit types, cricket values and heatmap hits. For signed-in players, locally played games are stored with all participants; players without an account appear only under their freely chosen player name.</li>
+  <li><strong>Synchronization.</strong> When you are signed in, local player profiles, match histories and statistics are linked to your account together with technically required change and deletion markers and synchronized across your devices.</li>
+  <li><strong>Multiplayer and technical operation.</strong> For online and local account lobbies and online tournaments, session identifiers, participants, invitations, game states, throws, results and connection status are processed. Server requests also generate technically required access data such as IP address, time, requested endpoint and transfer status. In pure offline mode, player and match data stay on your device.</li>
+  <li><strong>Feedback.</strong> If you voluntarily send feedback or request access to a test feature, the category, message, app version, platform, language, time and, when signed in, your internal user ID are stored. No additional e-mail address is requested. Feedback is deleted automatically after 24 months at the latest.</li>
+</ul>
+
+<h2>Purposes and legal bases</h2>
+<ul>
+  <li>Account, sign-in and password recovery: to provide and manage your account (Art. 6(1)(b) GDPR).</li>
+  <li>Multiplayer, local account lobbies, tournaments, match history and statistics: to run and document the games you start (Art. 6(1)(b) GDPR).</li>
+  <li>Account synchronization: to back up local players, matches and statistics to your account and make them available on your devices (Art. 6(1)(b) GDPR).</li>
+  <li>Friend features: to send, accept and decline requests and to show shared profile and statistics data (Art. 6(1)(b) GDPR).</li>
+  <li>Reminders and sharing camera samples: only with your consent (Art. 6(1)(a) GDPR), revocable at any time.</li>
+  <li>IT security, abuse prevention, troubleshooting and stable operation: based on the legitimate interest in a secure and reliable service (Art. 6(1)(f) GDPR). Mandatory legal processing, where applicable, is based on Art. 6(1)(c) GDPR. Strictly necessary local storage is based on § 25(2) no. 2 of the German TDDDG. Acknowledging this policy does not constitute consent under data protection law.</li>
+</ul>
+
+<h2>Recipients and data transfers</h2>
+<p>Personal data is not sold or rented and not passed on to advertising networks or data brokers. Where required for the respective feature, data is received by:</p>
+<ul>
+  <li>the operator and expressly authorized administrators,</li>
+  <li>Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany, as a processor bound by instructions; the cloud server used is located at the Nuremberg, Germany site,</li>
+  <li>other players and confirmed friends only to the extent described below,</li>
+  <li>Google, if you turn on reminders (see “Reminders”) or Android device backup is enabled in your Google account,</li>
+  <li>authorities or other bodies where there is a legal obligation.</li>
+</ul>
+<p>An external e-mail delivery service for password reset e-mails is currently not set up. This policy will be amended before one is introduced.</p>
+<p>The data on the Simple Darts server, including voluntary feedback and shared camera samples, is processed at Hetzner’s Nuremberg site and therefore within the EU. For optional Android device backup, reminders, and when you voluntarily open Google Play or Ko-fi, processing outside the EU/EEA under the respective provider’s terms cannot be ruled out. Any third-country transfer is governed by Art. 44 et seq. GDPR and the provider’s safeguards.</p>
+
+<h2>Reminders</h2>
+<ul>
+  <li>Reminders are optional and off by default. A device identifier is created only once you turn them on in the settings.</li>
+  <li>They are delivered via Google’s Firebase Cloud Messaging. Google receives a random device identifier, an installation identifier, your IP address and technical details such as the Android and app version.</li>
+  <li>Google receives no name, no e-mail address, no tournament name and no message text. Deliberately only an empty signal is sent; the sentence you read is composed on your device.</li>
+  <li>Google also processes this data outside the EU, including in the USA, based on the EU-US Data Privacy Framework and standard contractual clauses. Google acts as a processor under Article 28 GDPR.</li>
+  <li>You can turn reminders off at any time. The device identifier is then deleted both at Google and on our server. Deleting your account removes it as well.</li>
+</ul>
+
+<h2>Camera (throw detection)</h2>
+<p>The camera detection processes the camera image on your device. Without the two features below, no image leaves the device.</p>
+<ul>
+  <li><strong>Board image in online games.</strong> If you play online with the camera enabled, after each detected throw the app sends a downscaled grayscale image of the board area to our server. It shows only the board and the darts, not the room. The server forwards it only to the players and spectators of the same game, keeps only the most recent image in memory and stores nothing permanently; it is deleted no later than two hours after the last image. Legal basis: Art. 6(1)(b) GDPR (the game you started).</li>
+  <li><strong>Sharing samples (optional).</strong> If you expressly agree in the camera view, after each detected throw the app uploads the grayscale photo of the board area (with and without the new dart), the calibration and the field hit, together with your account identifier, app version and the time of consent, to our server, over Wi-Fi only. The sole purpose is training the throw detection. Samples are not shared with third parties, not published, and stored on a server in Germany. You can withdraw consent at any time in the camera view and delete all uploaded samples there; deleting your account deletes them as well. Legal basis: your consent (Art. 6(1)(a) GDPR).</li>
+</ul>
+
+<h2>Advertising &amp; tracking</h2>
+<ul>
+  <li>No advertising.</li>
+  <li>No analytics or tracking services.</li>
+  <li>No hidden data collectors and no solely automated decisions with legal or similarly significant effect. External links to the Google Play Store and Ko-fi open only when you tap them. Feedback is transmitted directly and encrypted to the Simple Darts server, not to a third-party form service.</li>
+</ul>
+
+<h2>Local storage, security and retention</h2>
+<p>Local data is kept in the app’s private storage. Because Android backups are currently allowed, Android may back up parts of the app storage and settings to your Google account if device backup is enabled. Communication with the server uses HTTPS.</p>
+<p>Retention:</p>
+<ul>
+  <li>Account, profile, friend, synchronized player, match and statistics data: in principle until the record or account is deleted, unless a longer retention is legally required.</li>
+  <li>Local account lobbies that were never started: usually 30 minutes. Finished lobbies: up to seven days for statistics that arrive late. Stale running lobbies are cleaned up regularly.</li>
+  <li>Declined friend requests: at least for the 14-day cooldown; beyond that until the request is reused/cleaned up or the account is deleted.</li>
+  <li>Voluntary feedback: after 24 months at the latest.</li>
+  <li>Shared camera samples: until you delete them in the camera view or delete your account.</li>
+</ul>
+<p>When an account is deleted, direct account identifiers are anonymized and the account is permanently deactivated. Friend data, account synchronization data, device identifiers for reminders and shared camera samples are removed. Statistics of shared matches may remain anonymized as “Deleted player” so that other participants’ histories are not distorted. Local device data and Android backups are not removed automatically by the server-side deletion. Account deletion is available directly in the app.</p>
+
+<h2>Visibility and required information</h2>
+<p>Lobby and match participants see the display names, player codes, status, game and result data required for playing together. Confirmed friends can see display name, player code, online / last-online status and the shared summary and per-mode statistics. Involved users can see shared match results. E-mail address and password are never shown to other players.</p>
+<p>There is no legal obligation to create an account. Without an e-mail address, display name, player code and password, however, we cannot offer an account and therefore no account synchronization, friend features or account-bound online features. Guest/offline mode remains usable with a reduced feature set.</p>
+<p>Please do not use real names or other details of other people for local players unless this is necessary or the person concerned agrees.</p>
+
+<h2>Your rights, complaints and changes</h2>
+<p>The guiding principle is data minimization: only data required for the described features and secure operation is processed, and it is not used for incompatible purposes.</p>
+<p>Where the legal requirements are met, you have the right of access (Art. 15 GDPR), rectification (Art. 16), erasure (Art. 17), restriction (Art. 18), data portability (Art. 20), withdrawal of consent (Art. 7(3)) and objection to processing based on Art. 6(1)(f) GDPR (Art. 21). Please use the contact option provided in the app or in the Google Play listing. To protect your data, suitable proof of identity may be requested.</p>
+<p>You may also lodge a complaint with a data protection supervisory authority, in particular at your place of residence, place of work or the place of the alleged infringement.</p>
+<p>This policy is updated when features, recipients, retention periods or the legal situation change materially. You will be informed in an appropriate way in the app.</p>
+
 </body>
 </html>
